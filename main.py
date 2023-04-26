@@ -42,8 +42,8 @@ def binary_search(text: list, target: str) -> str:
         return "Target string not found in the list"
 
 # Comment N2
-text = ['apple', 'banana', 'cherry', 'dates', 'grape', 'oranges']
-target = 'cherry'
+text = ['T-shirts', 'Jeans', 'Coats', 'Hats', 'Underwear', 'Accessories']
+target = 'Underwear'
 
 result = binary_search(text, target)
 print(f"Result: {result}")
